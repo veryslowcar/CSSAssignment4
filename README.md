@@ -40,18 +40,18 @@ Your task is to containerize this existing application using Docker. You need to
 
 - To build the docker image run the command:
 
-```bash
-
-```
+ docker build -t css-assignment4 .
 
 - To run your docker container in port 3000 run the command:
 
-```bash
-
-```
+ docker run -d -p 3000:3000 css-assignment4
 
 ## Reflection Question
 **Answer the following question in the space below**: How does containerization with Docker differ from using virtual machines, and why might a development team choose Docker containers over VMs for deploying applications like the one you just containerized?
+
+Dockers are different from using vitual machines because virtual machines are like mini computers inside one physical computer and has their own OS's while docker containers are putting an application and whatever it needs to run inside a box.
+
+A development team might choose Docker because it'll be easier to deploy applications as deployment is now consistent and it has everything it needs in one place. Docker containers also takes seconds to startup compared to VM's.
 
 
 
